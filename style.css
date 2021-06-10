@@ -1,0 +1,80 @@
+/* Tags */
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------ */
+
+#header-img {
+    margin: 15px 0px 0px 20px;
+    width: 300px;
+    height: 32px;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 35px 0px 0px 50%;
+}
+
+.nav-link {
+    margin: 0px 0px 0px 50%;
+    white-space: nowrap;
+}
+
+#first-section {
+    text-align: center;
+    width: 30%;
+    margin: 60px auto auto auto;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    width: 50%;
+    margin: auto;
+}
+
+#submit {
+    width: 22%;
+    margin: 15px auto auto auto;
+    background-color: orange;
+    font-weight: 800;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: teal;
+    width: 40%;
+    margin: 60px auto auto auto;
+
+}
+
+/* body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.feature {
+    background-color: gray;
+    width: auto;
+    height: auto;
+} */
+
+@media (max-width: 100px) {
+     /* CSS Rules */ 
+}
