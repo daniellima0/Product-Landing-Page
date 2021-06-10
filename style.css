@@ -1,16 +1,28 @@
 /* Tags */
-
-header {
-    display: flex;
-    flex-direction: row;
-}
-
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: 200;
 }
 
 /* ------------------------------ */
+
+#header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}
 
 #header-img {
     margin: 15px 0px 0px 20px;
@@ -21,18 +33,20 @@ body {
 #nav-bar {
     display: flex;
     flex-direction: row;
-    margin: 35px 0px 0px 50%;
+    margin: 35px 0px 0px 900px;
 }
 
 .nav-link {
     margin: 0px 0px 0px 50%;
     white-space: nowrap;
+    text-decoration: none;
+    color: black;
 }
 
 #first-section {
     text-align: center;
     width: 30%;
-    margin: 60px auto auto auto;
+    margin: 120px auto auto auto;
 }
 
 #form {
@@ -56,25 +70,67 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    background-color: teal;
-    width: 40%;
-    margin: 60px auto auto auto;
+    width: 50%;
+    margin: 80px auto auto auto;
 
 }
-
-/* body {
-    display: flex;
-    flex-direction: column;
-}
-
-
 
 .feature {
-    background-color: gray;
+    display: flex;
+    flex-direction: row;
+}
+
+.icons {
+    margin: 30px 80px 0px 0px;
     width: auto;
-    height: auto;
-} */
+    height: 60px;
+}
+
+#video {
+    display: block;
+    margin: 60px auto auto auto;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    margin: 60px auto 60px auto;
+    width: 50%;
+}
+
+.board {
+    margin: 5px;
+    width: 500px;
+    height: 200px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 0px 25px 130px 25px;
+    text-align: center;
+}
+
+.select {
+    background-color: orange;
+    font-weight: 200;
+    width: 100px;
+    height: 40px;
+    margin: 10px auto auto auto;
+}
+
+.board-title {
+    background-color: #ddd;
+    font-size: 18px;
+}
+
+.board-number {
+    font-size: 25px;
+}
 
 @media (max-width: 100px) {
      /* CSS Rules */ 
 }
+
+/* Query:
+    - How to make the header cover the page when I'm scrolling?
+    - How to stretch the gray background on the boards
+*/
