@@ -16,6 +16,13 @@ h2 {
     font-weight: 200;
 }
 
+footer {
+    background-color: #ddd;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+
 /* ------------------------------ */
 
 #header {
@@ -126,11 +133,32 @@ h2 {
     font-size: 25px;
 }
 
+.footer-links {
+    text-align: right;
+    margin: 22px 30px 0px 0px;
+    padding-left: auto 10px auto 10px;
+}
+
+.footer-link {
+    margin: auto 20px auto auto;
+    text-decoration: none;
+    color: black;
+}
+
+#copyright {
+    text-align: right;
+    margin-right: 25px;
+    color: #444;
+    font-weight: 200;
+    font-size: 15px;
+}
+
 @media (max-width: 100px) {
      /* CSS Rules */ 
 }
 
 /* Query:
     - How to make the header cover the page when I'm scrolling?
-    - How to stretch the gray background on the boards
+    - How to stretch the gray background on the boards?
+    - How to bring the footer links and the copyright section together?
 */
