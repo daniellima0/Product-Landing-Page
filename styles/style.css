@@ -1,4 +1,5 @@
 /* Tags */
+
 body {
     display: flex;
     flex-direction: column;
@@ -59,15 +60,16 @@ footer {
 #form {
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 #email {
-    width: 50%;
+    width: max-content;
     margin: auto;
 }
 
 #submit {
-    width: 22%;
+    width: max-content;
     margin: 15px auto auto auto;
     background-color: orange;
     font-weight: 800;
@@ -79,7 +81,6 @@ footer {
     text-align: left;
     width: 50%;
     margin: 80px auto auto auto;
-
 }
 
 .feature {
@@ -153,10 +154,42 @@ footer {
     font-size: 15px;
 }
 
-@media (max-width: 100px) {
-     /* CSS Rules */ 
-}
+@media (max-width: 450px) {
+    h1 {
+        font-size: 16px;
+    }
+    #first-section {
+        width: 100%;
+    }
+    #submit {
+        width: max-content;
+    }
+    #features {
+        width: 80%;
+    }
+    .feature h2 {
+        font-size: 0.8rem;
+    }
+    #video {
+        width: 80%;
+        height: auto;
+    }
 
-/* Query:
-- Add @media
-*/
+    #pricing {
+        flex-direction: column;
+        margin: 1rem auto;
+        align-items: center;
+        text-align: center;
+        row-gap: 1rem;
+    }
+
+    .board {
+        width: 30vh;
+        height: 28vh;
+
+    }
+
+    footer {
+        width: 100%;
+    }
+}
